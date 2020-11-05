@@ -32,7 +32,7 @@ jobs:
           checkmarx_url: ${{secrets.CHECKMARX_URL}}
           # Select a Checkmarx Team
           team: /CxServer/SP/APAC
-          #Provide Checkmarx Username
+          #Provide Checkmarx Username - updated this secret in secrets.
           checkmarx_username: ${{secrets.CHECKMARX_USERNAME}}
           #Provide Checkmarx Password
           checkmarx_password: ${{secrets.CHECKMARX_PASSWORD}}
