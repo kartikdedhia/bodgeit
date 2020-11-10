@@ -42,6 +42,9 @@ jobs:
           project: Bodgeit-Github-Action
           # Select an Application Name used by downstream bug tracker systems
           app: Bodgeit
+          cxGithubIssues: true
+          cxGithubLabels: bug,test
+          cxGithubAssignees: kartikdedhia
           # Break build based on Checkmarx findings?
           #break_build: # optional
           # Additional CLI parameters
